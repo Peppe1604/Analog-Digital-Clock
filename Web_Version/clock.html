@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Orologio Moderno Animato</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <main>
+        <div class="contenitore-orologio">
+            <!-- Orologio analogico -->
+            <div class="orologio" role="img" aria-label="Orologio analogico animato">
+                <div class="lancetta ore" id="ore"></div>
+                <div class="lancetta minuti" id="minuti"></div>
+                <div class="lancetta secondi" id="secondi"></div>
+                <div class="punto-centrale"></div>
+                <div class="numeri"></div>
+            </div>
+            <!-- Orologio digitale -->
+            <div class="digitale" id="digitale" aria-live="polite"></div>
+        </div>
+    </main>
+    <!-- Script principale dell'orologio -->
+    <script src="clock.js"></script>
+</body>
+</html>
