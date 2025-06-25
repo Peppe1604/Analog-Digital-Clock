@@ -1,99 +1,99 @@
 # 🕒 Analog-Digital Clock
 
-Un orologio moderno **analogico e digitale**, disponibile sia in versione **Web** (HTML/CSS/JS) che **Desktop** (Python con DearPyGui). Progettato con un’interfaccia elegante, fluide animazioni e supporto ai **fusi orari internazionali**.
+A modern **analog and digital** clock, available in both **Web** (HTML/CSS/JS) and **Desktop** (Python with DearPyGui) versions. Designed with an elegant interface, smooth animations, and support for **international time zones**.
 
 ---
 
-## Indice
+## Table of Contents
 
-- [Caratteristiche](#caratteristiche)
-- [Struttura del progetto](#struttura-del-progetto)
-- [Versione Web](#versione-web)
-  - [Requisiti](#requisiti)
-  - [Avvio](#avvio)
-- [Versione Python](#versione-python)
-  - [Requisiti](#requisiti-1)
-  - [Avvio](#avvio-1)
-- [Screenshot](#screenshot)
-- [Autore](#autore)
-
----
-
-## Caratteristiche
-
-- 🔰 Orologio **analogico** con lancette animate in tempo reale
-- ⏱️ Visualizzazione **digitale** sincronizzata
-- 📱 **Responsive design** per una perfetta resa su ogni dispositivo (Web)
-- 🌍 **Supporto multilingua e fusi orari internazionali** (Python)
-- 🎨 Interfaccia moderna con **temi personalizzabili**
-- ⚙️ Progetto **modulare e facilmente estendibile**
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Web Version](#web-version)
+  - [Requirements](#requirements)
+  - [Launch](#launch)
+- [Python Version](#python-version)
+  - [Requirements](#requirements-1)
+  - [Launch](#launch-1)
+- [Screenshots](#screenshots)
+- [Author](#author)
 
 ---
 
-## Struttura del progetto
+## Features
+
+- 🔰 **Analog** clock with real-time animated hands
+- ⏱️ Synchronized **digital** display
+- 📱 **Responsive design** for perfect rendering on every device (Web)
+- 🌍 **Multi-language and international time zone support** (Python)
+- 🎨 Modern interface with **customizable themes**
+- ⚙️ **Modular and easily extensible** project
+
+---
+
+## Project Structure
 
 ```bash
 Analog-Digital-Clock/
 │
-├── Web_Version/                # Versione Web
-│   ├── clock.html              # Interfaccia HTML
-│   ├── clock.css               # Stile grafico
-│   └── clock.js                # Logica JavaScript
+├── Web_Version/                # Web Version
+│   ├── clock.html              # HTML interface
+│   ├── clock.css               # Graphic style
+│   └── clock.js                # JavaScript logic
 │
-└── Python_Version/            # Versione Desktop
-    ├── main.py                 # Entry point principale
-    ├── gui.py                  # Gestione GUI con DearPyGui
-    ├── clock_app.py            # Versione alternativa dell'app
-    ├── clock_dearpygui.py      # Implementazione alternativa
-    └── timezone_helper.py      # Gestione fusi orari
+└── Python_Version/            # Desktop Version
+    ├── main.py                 # Main entry point
+    ├── gui.py                  # GUI management with DearPyGui
+    ├── clock_app.py            # Alternative app version
+    ├── clock_dearpygui.py      # Alternative implementation
+    └── timezone_helper.py      # Time zone management
 ```
 
 ---
 
-## Versione Web
+## Web Version
 
-### Requisiti
+### Requirements
 
-- Browser moderno (Chrome, Firefox, Edge, Safari)
+- Modern browser (Chrome, Firefox, Edge, Safari)
 
-### Avvio
+### Launch
 
-1. Apri la cartella `Web_Version`
-2. Fai doppio clic su `clock.html` oppure aprilo nel browser
+1. Open the `Web_Version` folder
+2. Double-click on `clock.html` or open it in the browser
 
 ---
 
-## Versione Python
+## Python Version
 
-### Requisiti
+### Requirements
 
-- Python 3.8 o superiore
-- Librerie necessarie:
+- Python 3.8 or higher
+- Required libraries:
   - [`dearpygui`](https://github.com/hoffstadt/DearPyGui)
   - [`pytz`](https://pypi.org/project/pytz/)
 
-Installa le dipendenze con:
+Install dependencies with:
 
 ```bash
 pip install dearpygui pytz
 ```
 
-### Avvio
+### Launch
 
-1. Vai nella cartella `Python_Version`
-2. Esegui uno degli script disponibili:
+1. Go to the `Python_Version` folder
+2. Run one of the available scripts:
 
 ```bash
 python main.py
 ```
 
-oppure
+or
 
 ```bash
 python clock_app.py
 ```
 
-oppure
+or
 
 ```bash
 python clock_dearpygui.py
@@ -101,7 +101,7 @@ python clock_dearpygui.py
 
 ---
 
-## Screenshot
+## Screenshots
 
 ### Web Version
 
@@ -113,11 +113,11 @@ python clock_dearpygui.py
 
 ---
 
-## Autore
+## Author
 
 **Giuseppe**  
-📬 Contributi, domande o suggerimenti? Sentiti libero di aprire una *pull request* o contattarmi!
+📬 Contributions, questions or suggestions? Feel free to open a *pull request* or contact me!
 
 ---
 
-> ⭐ *Se ti piace il progetto, lascia una stella alla repo!*
+> ⭐ *If you like the project, leave a star on the repo!*
